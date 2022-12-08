@@ -8,78 +8,66 @@
 
 html,body{
     height: 100vh;
-
 }
 
 body{
-    background-color:#eee ;
+    background-color:#ffffff;
 }
 
 .side-menu{
-    background-color:#FFFFD4;
+    background-color:#bec7d2;
     height: 100vh;
     width: 20%;
     position: fixed;
     text-align: center;
-    
-      }
+}
 
 .content{
         height: 4000px;
         margin-left: 20%;
     }
 
-.size-menu .wrap{
-    margin-top: 30px;
-}
-
 .side-menu nav a{
     display: block;
     padding:20px 10px;
-    color:black;
+    color:white;
     text-decoration: none;
+   
+}
+
+.side-menu .wrap{
+    margin-top: 200px;
 }
 
 .side-menu nav a:hover{
-    color:aliceblue;
+    color:#bec7d2;
 }
 
-.wrap img{
+.side-menu .wrap img{
     width: 150px;
     margin: auto;
     border-radius:50%;
 
 }
 
-
-
-
-.content .wrap{
-    text-align: center;
-}
-
 .content .about{
     height: 900px;
-    width: 800px;
-    margin: auto;
-    
 }
-
-.content .wrap .about .about-box h1
+.content .wrap .about .about-box
 {
-    padding-top: 40%;
-    font-size: 100px; 
+    padding-top: 30%;
+    text-align: left;
+    padding-left: 50px;
 }
-.content 
-    
 
-/*.about-box{
-   background-color: red;
-   margin: auto;
-}*/
+h1{
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
 
-.content .about .h1{
-    font-size: large;
+.content .wrap .about .about-box p{
+    padding-top: 10px;
+    font-size: 24px;
 }
 
 .content .experience{
