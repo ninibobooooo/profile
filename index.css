@@ -8,6 +8,7 @@
 
 html,body{
     height: 100vh;
+
 }
 
 body{
@@ -17,16 +18,20 @@ body{
 .side-menu{
     background-color:#FFFFD4;
     height: 100vh;
-    flex-direction: column;
-    float: left;
     width: 20%;
     position: fixed;
     text-align: center;
-
-    /*left: 0;
-    width: 250px;
-    float: left;*/
+    
       }
+
+.content{
+        height: 4000px;
+        margin-left: 20%;
+    }
+
+.size-menu .wrap{
+    margin-top: 30px;
+}
 
 .side-menu nav a{
     display: block;
@@ -42,33 +47,39 @@ body{
 .wrap img{
     width: 150px;
     margin: auto;
-    /*padding: 0 20px;*/
     border-radius:50%;
 
 }
 
-.content{
-    height: 4000px;
-    margin-left: 20%;
-    margin-right: 0%;
-    /*position: fixed;
-    right: 0;
-    display: inline-block;
-    position:absolute;
-    right: 0;
-    top: 0;*/
-}
+
 
 
 .content .wrap{
     text-align: center;
-
 }
 
 .content .about{
     height: 900px;
-    width: 500px;
+    width: 800px;
     margin: auto;
+    
+}
+
+.content .wrap .about .about-box h1
+{
+    padding-top: 40%;
+    font-size: 100px; 
+}
+.content 
+    
+
+/*.about-box{
+   background-color: red;
+   margin: auto;
+}*/
+
+.content .about .h1{
+    font-size: large;
 }
 
 .content .experience{
@@ -87,8 +98,4 @@ body{
     height: 900px;
     width: 500px;
     margin: auto;
-}
-
-.content .hr{
-color: red;
 }
