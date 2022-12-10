@@ -27,6 +27,9 @@ body{
         margin-left: 20%;
     }
 
+
+
+
 .side-menu nav a{
     display: block;
     padding:20px 10px;
@@ -50,9 +53,16 @@ body{
 
 }
 
+
+
+
+
 .content .about{
     height: 900px;
+    width: 1000px;
 }
+
+
 .content .wrap .about .about-box
 {
     padding-top: 30%;
@@ -70,20 +80,113 @@ h1{
     font-size: 24px;
 }
 
-.content .experience{
-    height: 900px;
-    width: 500px;
-    margin: auto;
+
+
+h2{
+    text-align:center ;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 70px;
 }
 
-.content .introduce{
-    height: 900px;
-    width: 500px;
-    margin: auto;
+h3 {
+    text-align: center;
+    padding: 3px;
 }
+
+h4{
+    text-align: center;
+    padding: 3px;
+}
+
+.content .experience{
+    height: 900px;
+    margin: auto;
+    width: 1000px;
+}
+
+.company{
+    height: 200px;
+    display: flex;
+}
+
+.experience .company img{
+  width: 120px;
+  border-radius:50%;
+}
+
+ul{
+    padding: 3px;
+    padding-left: 100px;
+    font-size: small;
+}
+
+ul {list-style: none}
+li::before {content: "::";display: inline-block; width: 1em;}
+
+
+
+
+
+
+.motivations {
+    height: 900px;
+    width: 1000px;
+    margin: auto;
+    
+}
+
+.motivations .moticontent {
+display: flex;
+/*background-color: aquamarine;*/
+margin: auto;
+}
+
+.motivations .moticontent .story{
+    margin: 50px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+
+.moticontent .text{
+    /*background-color: blue;*/
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+
+
+
+
+
 
 .content .future{
     height: 900px;
-    width: 500px;
+    width: 1000px;
     margin: auto;
+   
+
+}
+
+.content .future .wrap{
+    display: flex;
+   
+}
+    
+.future .future_content{
+    width: 700px;
+    
+}
+
+h5{
+    font-size: 100px ;
+    text-align: center;
+}
+
+.age ul{
+    
+    text-align: left;
 }
