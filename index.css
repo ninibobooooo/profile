@@ -2,17 +2,18 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 html,body{
     height: 100vh;
-}
+    font-family: 'Varela Round';
+    }
+    
 
 body{
-    background-color:#ffffff;
-}
+    background-color:#ffffff;}
+
 
 .side-menu{
     background-color:#bec7d2;
@@ -32,9 +33,10 @@ body{
 
 .side-menu nav a{
     display: block;
-    padding:20px 10px;
+    padding:15px;
     color:white;
     text-decoration: none;
+    font-size: 20px;
    
 }
 
@@ -72,13 +74,26 @@ body{
 
 h1{
     font-size: 100px;
-    font-family: 'Courier New', Courier, monospace;
+    
 }
 
-.content .wrap .about .about-box p{
+a{
+    font-size: 100px;
+    text-decoration: none;
+
+}
+
+.content .wrap .about .about-box ul li{
+    display: inline;
+    padding: 6px;
+   
+    
+}
+
+/* .content .wrap .about .about-box p{
     padding-top: 10px;
     font-size: 24px;
-}
+} */
 
 
 
@@ -88,6 +103,8 @@ h2{
     padding-bottom: 50px;
     font-size: 70px;
 }
+
+
 
 h3 {
     text-align: center;
@@ -115,14 +132,14 @@ h4{
   border-radius:50%;
 }
 
-ul{
+.experience .company .text ul li{
     padding: 3px;
     padding-left: 100px;
     font-size: small;
 }
 
-ul {list-style: none}
-li::before {content: "::";display: inline-block; width: 1em;}
+/* .experience .company .text > ul >li {list-style: none} */
+.experience .company .text > ul > li::before {content: "::";display: inline-block; width: 1em;}
 
 
 
@@ -177,16 +194,24 @@ img {
 }
     
 .future .future_content{
-    width: 700px;
+    width: 800px;
+    margin: 10px;
+    background-color: antiquewhite;
+    border-style:dashed;
     
 }
 
 h5{
-    font-size: 100px ;
+    font-size: 80px ;
     text-align: center;
 }
 
 .age ul{
     
     text-align: left;
+    line-height: 30px;
+    margin: 10px;
+
 }
+
+.age > ul > li::before {content: "::";display: inline-block; width: 1em;}
