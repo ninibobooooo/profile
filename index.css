@@ -10,17 +10,31 @@ html,body{
     font-family: 'Varela Round';
     }
 
-.media{
-    width:100%;
-    max-width: 1400px;
-    height: 100%;
-}
-
-    
-
 
 body{
     background-color:#ffffff;}
+
+@media screen and (max-width: 768px){
+        body {
+            background: green;
+    }
+        .content .wrap .about .about-box{
+            width: 550px;
+        }
+
+        .side-menu .wrap {
+            background-color: aqua;
+       
+        }
+}
+
+@media screen and (max-width: 375px){
+   body{
+    background-color: red;
+    
+}; 
+}
+
 
 
 .side-menu{
@@ -35,9 +49,6 @@ body{
         height: 4000px;
         margin-left: 20%;
     }
-
-
-
 
 .side-menu nav a{
     display: block;
@@ -156,9 +167,6 @@ h4{
 
 /* .experience .company .text > ul >li {list-style: none} */
 .experience .company .text > ul > li::before {content: "::";display: inline-block; width: 1em;}
-
-
-
 
 
 
